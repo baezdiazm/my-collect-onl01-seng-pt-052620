@@ -5,5 +5,5 @@ def my_collect(collection)
     yield collection[counter]
     counter += 1
   end
-collection.split (" ").first
+collection.split (" ")
 end
