@@ -1,10 +1,10 @@
 def my_collect(collection)
   counter = 0
-  newcollect = []
+  newarray = []
 
   while counter < collection.length
-     yield collection[counter]
+    newarray << yield (collection[counter])
     counter += 1
   end
-collection
+newarray
 end
